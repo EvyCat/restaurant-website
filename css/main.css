@@ -37,7 +37,7 @@ nav a {
 nav a:hover {
   color: #808080;
   text-align: center;
-  border-color: #000;
+  background-color: #000;
 }
 
 .img-flex {
