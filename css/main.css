@@ -218,11 +218,13 @@ footer {
   .menu-image {
     max-width: 50%;
     padding-top: 1em;
+    padding-bottom: 1em;
     float: left;
   }
   .nut-image {
     max-width: 100%;
     padding-top: 1em;
+    padding-bottom: 1em;
   }
   .map-image {
     width: 50%;
