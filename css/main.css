@@ -73,7 +73,6 @@ p {
   margin: 1.2rem 0;
 }
 
-
 .btn {
   font-size: 1.125rem;
   display: inline;
@@ -95,13 +94,13 @@ p {
 }
 
 .menu {
-display: block;
-font-size: 1.125rem;
-background-color: #808080;
-text-decoration: none;
-border: 3px;
-border-radius: 8px;
-padding: 1em;
+  display: block;
+  font-size: 1.125rem;
+  background-color: #808080;
+  text-decoration: none;
+  border: 3px;
+  border-radius: 8px;
+  padding: 1em;
 }
 
 .menu:hover {
@@ -109,13 +108,13 @@ padding: 1em;
 }
 
 .nut {
-display: block;
-font-size: 1.125rem;
-background-color: #808080;
-text-decoration: none;
-border: 3px;
-border-radius: 8px;
-padding: 1em;
+  display: block;
+  font-size: 1.125rem;
+  background-color: #808080;
+  text-decoration: none;
+  border: 3px;
+  border-radius: 8px;
+  padding: 1em;
 }
 
 .nut:hover {
@@ -123,13 +122,13 @@ padding: 1em;
 }
 
 .con {
-display: block;
-font-size: 1.125rem;
-background-color: #808080;
-text-decoration: none;
-border: 3px;
-border-radius: 8px;
-padding: 1em;
+  display: block;
+  font-size: 1.125rem;
+  background-color: #808080;
+  text-decoration: none;
+  border: 3px;
+  border-radius: 8px;
+  padding: 1em;
 }
 
 .con:hover {
@@ -179,7 +178,7 @@ li {
   border-bottom: 2px solid #808080;
 }
 
-.map-head{
+.map-head {
   text-align: center;
 }
 
@@ -201,7 +200,7 @@ footer {
   .cards {
     margin-left: 1em;
     margin-right: 1em;
-   }
+  }
 }
 
 @media only screen and (min-width: 38em) {
@@ -233,11 +232,13 @@ footer {
     padding-bottom: 1em;
     float: left;
   }
+
   .nut-image {
     max-width: 100%;
     padding-top: 1em;
     padding-bottom: 1em;
   }
+
   .map-image {
     width: 50%;
     padding-bottom: 1em;
@@ -250,10 +251,10 @@ footer {
   }
 
   .section2 {
-      clear: left;
+    clear: left;
   }
 
-  .img-flex{
+  .img-flex {
     width: 100%;
     display: block;
   }
@@ -270,10 +271,10 @@ footer {
 
 @media only screen and (min-width: 60em) {
 
-    html {
-      font-size: 120%;
-      line-height: 1.4;
-    }
+  html {
+    font-size: 120%;
+    line-height: 1.4;
+  }
 }
 
 @media only screen and (min-width: 90em) {
