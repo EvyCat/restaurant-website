@@ -24,7 +24,6 @@ h1 {
 
 nav {
   text-align: center;
-  text-decoration: none;
   list-style-type: none;
 }
 
@@ -58,6 +57,7 @@ nav a:hover {
   position: absolute;
   top: 42%;
   left: 35%;
+  -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   max-width: 45em;
   width: 100%;
@@ -100,7 +100,11 @@ p {
   text-decoration: none;
   border: 3px;
   border-radius: 8px;
+}
+
+.menu a {
   padding: 1em;
+  display: block;
 }
 
 .menu:hover {
@@ -114,7 +118,11 @@ p {
   text-decoration: none;
   border: 3px;
   border-radius: 8px;
+}
+
+.nut a {
   padding: 1em;
+  display: block;
 }
 
 .nut:hover {
@@ -128,7 +136,11 @@ p {
   text-decoration: none;
   border: 3px;
   border-radius: 8px;
+}
+
+.con a {
   padding: 1em;
+  display: block;
 }
 
 .con:hover {
@@ -142,7 +154,6 @@ p {
 
 .cards {
   text-align: center;
-
 }
 
 li {
